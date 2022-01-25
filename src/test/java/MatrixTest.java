@@ -22,7 +22,7 @@ class MatrixTest {
     @CsvSource({"5,5", "10,20", "9384,12384"})
     void getHeight(int width,int height) {
         Matrix m= new Matrix(width,height);
-        Assertions.assertEquals(height, m.getHeight());
+        Assertions.assertEquals(10, m.getHeight());
     }
 
     @Test
